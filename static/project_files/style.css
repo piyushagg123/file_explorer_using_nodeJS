@@ -1,0 +1,58 @@
+/* breadcrumb */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.breadcrumb{
+    background-color: #515161;
+    border-radius: 0;
+    padding: 15px;
+    
+}
+a,a:hover{
+    color: #AEBD38;
+    display: flex;
+    align-items: center;
+}
+.ab{
+    background: #68829e;
+}
+/* table */
+table{
+    color: #61686e;
+    margin: 100px 10px;
+}
+thead{
+    background-color: #68829e;
+    color: white;
+    cursor: pointer;
+}
+/* icons */
+tbody ion-icon{
+    font-size: 24px;
+    color: #68829e;
+    margin-right: 5px;
+}
+
+tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+thead,tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #61686e;
+}
